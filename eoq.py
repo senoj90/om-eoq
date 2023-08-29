@@ -28,7 +28,7 @@ st.sidebar.subheader("Enquiries: nwkoh@smu.edu.sg")
 st.title(title)
 
 # EOQ = sqrt(2 * K * R / h)
-K = st.slider('What is your setup or ordering cost ($)?', 0, 1000, 500)
+K = st.slider('What is your setup or ordering cost ($)?', 1, 1000, 500)
 R = st.slider('What is your average demand per year?', 1000, 5000, 3000)
 h = st.slider('What is your holding cost per unit ($)?', 1, 20, 10)
 
